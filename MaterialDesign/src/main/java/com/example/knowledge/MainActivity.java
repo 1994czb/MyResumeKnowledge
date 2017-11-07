@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 switch (item.getItemId()) {
                     case R.id.navigation_item_home:
                        // mToolbar.setTitle("首页");
-                        mNavigationView.getMenu().getItem(0).setTitle("页首");
+                        mNavigationView.getMenu().getItem(0).setTitle("首页");
                         //switchFragment("MainFragment");
                         break;
                     case R.id.navigation_item_blog:
